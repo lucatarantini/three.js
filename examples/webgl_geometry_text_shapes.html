@@ -36,7 +36,7 @@
 				camera.position.set( 0, - 400, 600 );
 
 				scene = new THREE.Scene();
-				scene.background = new THREE.Color( 0xf0f0f0 );
+				scene.background = transparent;
 
 				var loader = new THREE.FontLoader();
 				loader.load( 'fonts/helvetiker_regular.typeface.json', function ( font ) {
@@ -57,7 +57,7 @@
 						side: THREE.DoubleSide
 					} );
 
-					var message = "   AOK\nLuca Tarantini.";
+					var message = "   AOK\nLUCA TARANTINI.";
 
 					var shapes = font.generateShapes( message, 100 );
 
